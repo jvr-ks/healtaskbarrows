@@ -5,7 +5,7 @@ Windows 10 only
 
 Version (>=)| Change
 ------------ | -------------
-0.015 | bugfixes
+0.015 | bugfixes, A32 version removed
 0.014 | bugfixes
   
 #### Status  
@@ -231,5 +231,4 @@ Copyright (c) 2022 J. v. Roos
 )  
 [Virusscan at Virustotal, healtaskbarrows32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a/detection/u-2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a-1705864790
 )  
-[Virusscan at Virustotal, healtaskbarrowsA32.exe 32bit-exe ANSI, Check here]()  
 Use [CTRL] + Click to open in a new window! 
