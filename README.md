@@ -18,36 +18,9 @@ admin-rights. The files in your backup-target-directory may be owned by admin th
 Only start "htrsservice*.exe" if you want to use it immediately,  
 because a background program running with admin rights is a security risk!  
   
-#### Known drawbacks / bugs  
-If your taskbar (should have N-rows) sometimes still has one row less after booting,  
-it helps calling "setrowsN+1.bat".  
-(Script-files "setrows2.bat" ... "setrows5.bat").  
-It is usefull to have additional "setrowsN.bat" and "setrowsN+1.bat" icons on the desktop.  
-Example:  
-My taskbar has 4 rows.  
-I use "healtaskbarrows.exe" to shutdown.  
-Occasionally the taskbar has only 3 rows after rebooting.  
-Then I click on "setrows5.bat". The taskbar has 4 rows now or it has 5 rows sometimes.  
-In the later case I initiate a normal Windows restart, the taskbar has 4 rows afterwards.  
+#### Description  
+The purpose of "healtaskbarrows.exe" is to correct the size of the taskbar, if it is incorrect after a reboot.  
   
-Addendum:  
-My taskbar has 5 rows now.  
-Today it had only 4 rows after booting.  
-Running "setrows5.bat" doesn't help,  
-but running "setrows6.bat" and then (after a few seconds!) "setrows5.bat" fixed it!  
-  
-Today the taskbar suddenly had only 4 rows after booting (using HealTaskbarRows). 
-Running "setrows6.bat" I got 6 rows,    
-but running "setrows5.bat" then, I got 4 rows only.  
-Running "setrows4.bat" then, I got 3 rows only.  
-  
-So I could not set the taskbar to 5 rows using HealTaskbarRows!  
-Had to manually set the correct number of rows!   
-  
-Running "setrows6.bat" I got 6 rows again.  
-Running "setrows5.bat" I got 5 rows!  
-    
-#### Description
 If you have this problem:  
 "The taskbar has a row less after reboot",  
 then read on!  
@@ -94,7 +67,36 @@ Prefered way is to make an link in the autostart folder or use my [Startdelayed 
 "htrsservice*.exe" has no gui-window.  
 The configuration is done via the configuration-file "htrsservice.ini".  
 The configuration-file is not required, but automatically created.
-    
+  
+#### Known drawbacks / bugs  
+If your taskbar (should have N-rows) sometimes still has one row less after booting,  
+it helps calling "setrowsN+1.bat".  
+(Script-files "setrows2.bat" ... "setrows5.bat").  
+It is usefull to have additional "setrowsN.bat" and "setrowsN+1.bat" icons on the desktop.  
+Example:  
+My taskbar has 4 rows.  
+I use "healtaskbarrows.exe" to shutdown.  
+Occasionally the taskbar has only 3 rows after rebooting.  
+Then I click on "setrows5.bat". The taskbar has 4 rows now or it has 5 rows sometimes.  
+In the later case I initiate a normal Windows restart, the taskbar has 4 rows afterwards.  
+  
+Addendum:  
+My taskbar has 5 rows now.  
+Today it had only 4 rows after booting.  
+Running "setrows5.bat" doesn't help,  
+but running "setrows6.bat" and then (after a few seconds!) "setrows5.bat" fixed it!  
+  
+Today the taskbar suddenly had only 4 rows after booting (using HealTaskbarRows). 
+Running "setrows6.bat" I got 6 rows,    
+but running "setrows5.bat" then, I got 4 rows only.  
+Running "setrows4.bat" then, I got 3 rows only.  
+  
+So I could not set the taskbar to 5 rows using HealTaskbarRows!  
+Had to manually set the correct number of rows!   
+  
+Running "setrows6.bat" I got 6 rows again.  
+Running "setrows5.bat" I got 5 rows!  
+  
 #### Download  
 Portable, run from any directory, but running from a subdirectory of the windows programm-directories   
 (C:\Program Files, C:\Program Files (x86) etc.)  
@@ -227,8 +229,8 @@ Copyright (c) 2022 J. v. Roos
 
 
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, healtaskbarrows.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/6ec90603ee8b170387a532eabce28d698b92e05aff3f4ec39361e55ad3f28694/detection/u-6ec90603ee8b170387a532eabce28d698b92e05aff3f4ec39361e55ad3f28694-1705864790
+[Virusscan at Virustotal, healtaskbarrows.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/6ec90603ee8b170387a532eabce28d698b92e05aff3f4ec39361e55ad3f28694/detection/u-6ec90603ee8b170387a532eabce28d698b92e05aff3f4ec39361e55ad3f28694-1705867358
 )  
-[Virusscan at Virustotal, healtaskbarrows32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a/detection/u-2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a-1705864790
+[Virusscan at Virustotal, healtaskbarrows32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a/detection/u-2e672f9636e7bb207a88571cc87285c18b4f0eae477da18f9a1857cb52f1da6a-1705867359
 )  
 Use [CTRL] + Click to open in a new window! 

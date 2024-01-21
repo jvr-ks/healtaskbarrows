@@ -178,13 +178,6 @@ htrRest(ByRef req, ByRef res) {
     res.status := 200
     
     writeToRegAndAction(settingNew, false, shutdownmodeRest)
-    
-
-  ; } else {
-    ; res.SetBodyText("Error, empty Shutdown-value!" )
-    ; res.status := 501
-    
-    return
   }
 
   if (rowsRest != ""){ 
